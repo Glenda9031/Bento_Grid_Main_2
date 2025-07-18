@@ -27,6 +27,39 @@ body {
   background-color: hsl(0, 0%, 93%);
 }
 
+h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.1125rem;
+  line-height: 0.9;
+  padding-block: .625rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  padding-block: .625rem;
+}
+
+p {
+  padding-block: .3125rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  padding: 2rem 1rem;
+  gap: 2.5rem;
+}
+
 
 
 
