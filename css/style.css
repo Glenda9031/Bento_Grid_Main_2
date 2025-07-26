@@ -60,6 +60,38 @@ p {
   gap: 2.5rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.bg-purple {
+  background-color: var(--purple-500);
+}
+
+.bg-light-purple {
+  background-color: var(--purple-100);
+}
+
+.bg-yellow {
+  background-color: var(--yellow-500);
+}
+
+.bg-light-yellow {
+  background-color: var(--yellow-100);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.font-weight-light {
+  font-weight: 500;
+}
+
+.text-white {
+  color: var(--white);
+}
+
 
 
 
