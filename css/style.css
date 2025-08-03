@@ -195,8 +195,52 @@ p {
 }
 
 @media (width >= 64rem) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 0.9;
+  }
+
+  .min-fluid {
+    padding: 1.5625rem;
+  }
+
+  .container {
+    grid-template-columns: repeat(4, minmax(12.5rem, 15.625rem));
+    overflow: hidden;
+    align-items: stretch;
+    gap: 1.875rem;
+    grid-template-areas: 
+      'create-post stars stars schedule-posts'
+      'create-post mul-plat schedule schedule-posts'
+      'ai          mul-plat schedule schedule-posts'
+      'ai          audience followers followers'
+      'ai          audience followers followers';
+  }
+
+  #stars {
+    grid-area: stars;
+    padding: 3.125rem;
+  }
+
   
 }
+
 
 
 
