@@ -238,6 +238,28 @@ p {
     padding: 3.125rem;
   }
 
+  #mul-plat {
+    grid-area: mul-plat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #schedule {
+    grid-area: schedule;;
+  }
+
+  #schedule-posts {
+    grid-area: schedule-posts;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+  }
+
+  #schedule-posts h3 {
+    text-align: left;
+  }
+
   
 }
 
