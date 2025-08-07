@@ -260,7 +260,63 @@ p {
     text-align: left;
   }
 
-  
+  #schedule-posts p {
+    text-align: left;
+    padding: 0;
+  }
+
+  #followers {
+    grid-area: followers;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .625rem;
+  }
+
+  #followers h2 {
+    text-align: left;
+    padding: 0;
+    letter-spacing: 1;
+  }
+
+  #followers img {
+    flex-basis: 6.25rem;
+    width: 12.5rem;
+    height: auto;
+    margin: 0;
+  }
+
+  #audience {
+    grid-area: audience;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #create-post {
+    grid-area: create-post;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+  }
+
+  #ai {
+    grid-area: ai;
+  }
+
+  .img__consistent-schedule {
+    width: 12.5rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: -1.9375rem;
+  }
+
+  .img__schedule-posts {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
